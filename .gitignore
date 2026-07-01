@@ -70,3 +70,20 @@ env/
 
 # Conda
 .conda/
+
+# Virtual environments
+venv/
+venv_py38_old/
+.venv/
+env/
+ENV/
+
+# Logs
+*.log
+
+# micromamba
+.micromamba/
+
+# OS
+.DS_Store
+Thumbs.db
