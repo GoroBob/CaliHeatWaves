@@ -2,40 +2,19 @@ name: caliheatwaves
 channels:
   - conda-forge
 dependencies:
-  # Core
-  - python=3.11
-  - pip
-
-  # Numerical
-  - numpy>=1.24
-  - pandas>=2.0
-  - scipy>=1.10
-  - scikit-learn>=1.3
-  - statsmodels>=0.14
-
-  # Geospatial & Climate (the heavy stuff - pinned for stability)
-  - geopandas>=0.13
-  - shapely>=2.0
-  - pyproj>=3.4
-  - fiona>=1.9
-  - rasterio>=1.3
-  - xarray>=2023.0
-  - netCDF4>=1.6
-  - rioxarray>=0.14
-  - dask>=2023.0
-
-  # Visualization
-  - matplotlib>=3.7
-  - seaborn>=0.12
-
-  # Jupyter
-  - jupyter>=1.0
-  - jupyterlab>=4.0
-  - ipykernel>=6.20
-
-  # APIs
-  - requests>=2.28
   - cdsapi
+  - jupyter
+  - matplotlib
+  - netcdf4
+  - numpy
+  - pandas
+  - pip
+  - python=3.11
+  - requests
+  - scikit-learn
+  - scipy
+  - seaborn
+  - statsmodels
+  - xarray
 
-  # Development
-  - git
+prefix: "/home/boris/.local/share/mamba/envs/caliheatwaves"
